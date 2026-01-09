@@ -48,8 +48,10 @@ You will also need **MySQL** installed and configured.
 ```bash
 pip install mysql-connector-python
 
+# Clone the Repository
 git clone https://github.com/Sitaram8472/Bank-Management-System
 
+# Navigate to the Project Directory
 cd Python-Bank-Project
 
 ## 📋 Detailed Features
