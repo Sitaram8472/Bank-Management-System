@@ -48,34 +48,46 @@ You will also need **MySQL** installed and configured.
 ```bash
 pip install mysql-connector-python
 
-# Clone the Repository
+
+2️⃣ Clone the Repository
 git clone https://github.com/Sitaram8472/Bank-Management-System
 
-# Navigate to the Project Directory
-cd Python-Bank-Project
+3️⃣ Navigate to the Project Directory
+cd Bank-Management-System
 
-## 📋 Detailed Features
+📋 Detailed Features
+📝 Registration
 
-### 📝 Registration
-- New users can register by providing personal details and creating an account.
+New users can register by providing personal details and creating an account.
 
-### 🔑 Sign In / Sign Up
-- Users can sign in using their account credentials.
-- New users can sign up and create a new account.
+🔑 Sign In / Sign Up
 
-### 🛠️ Account Management
-- Update account details.
-- View and manage the transaction history.
-- Enquire about account balance.
+Users can sign in using their account credentials.
 
-### 💰 Transactions
-- Credit or withdraw money from the account.
-- Transfer funds to another account.
+New users can sign up and create a new account.
 
-### 🏦 Banking Facilities
-- Provides various banking functionalities like balance enquiry, funds transfer, and viewing transaction history.
-- Implements Object-Oriented Programming (OOP) for better code management and scalability.
-- Each account has a unique account number.
+🛠️ Account Management
 
-### ⏱️ Date/Time Functions
-- Utilizes date and time functions to keep track of transactions and account activities.
+Update account details.
+
+View and manage the transaction history.
+
+Enquire about account balance.
+
+💰 Transactions
+
+Credit or withdraw money from the account.
+
+Transfer funds to another account.
+
+🏦 Banking Facilities
+
+Provides various banking functionalities like balance enquiry, funds transfer, and viewing transaction history.
+
+Implements Object-Oriented Programming (OOP) for better code management and scalability.
+
+Each account has a unique account number.
+
+⏱️ Date/Time Functions
+
+Utilizes date and time functions to keep track of transactions and account activities.
