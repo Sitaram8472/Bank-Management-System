@@ -47,3 +47,33 @@ You will also need **MySQL** installed and configured.
 ### 1️⃣ Install MySQL Connector
 ```bash
 pip install mysql-connector-python
+
+git clone https://github.com/Sitaram8472/Bank-Management-System
+
+cd Python-Bank-Project
+
+## 📋 Detailed Features
+
+### 📝 Registration
+- New users can register by providing personal details and creating an account.
+
+### 🔑 Sign In / Sign Up
+- Users can sign in using their account credentials.
+- New users can sign up and create a new account.
+
+### 🛠️ Account Management
+- Update account details.
+- View and manage the transaction history.
+- Enquire about account balance.
+
+### 💰 Transactions
+- Credit or withdraw money from the account.
+- Transfer funds to another account.
+
+### 🏦 Banking Facilities
+- Provides various banking functionalities like balance enquiry, funds transfer, and viewing transaction history.
+- Implements Object-Oriented Programming (OOP) for better code management and scalability.
+- Each account has a unique account number.
+
+### ⏱️ Date/Time Functions
+- Utilizes date and time functions to keep track of transactions and account activities.
