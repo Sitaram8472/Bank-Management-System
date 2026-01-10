@@ -85,3 +85,8 @@ git clone [https://github.com/Sitaram8472/Bank-Management-System]
 - Automatically logs every transaction.
 - Records **exact date and time** for each operation.
 - Helps with auditing, debugging, and security tracking.
+
+
+## Project Preview
+
+![Banking Application Screenshot](images/projectpreview.png)
