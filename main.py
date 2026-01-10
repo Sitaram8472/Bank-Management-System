@@ -2,6 +2,7 @@ from register import *
 from bank import *
 
 status = False
+
 print("Welcome to Mohit Banking Project")
 while True:
     try:
@@ -20,6 +21,8 @@ while True:
     except ValueError:
         print("Invalid Input Try Again with Numbers")
 
+account_number = db_query(
+    f"SELECT account_number FROM customers WHERE username = '{user}';")
 
 while status:
     print(f"Welcome {user.capitalize()} Choose Your Banking Service\n")

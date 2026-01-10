@@ -1,5 +1,8 @@
 import mysql.connector as sql
 
+#  first time run this query alwalys beasuse database is connected with sql is compulsory otherwise you will gey error query is python database.py
+
+
 mydb = sql.connect(
     host="localhost",
     user="bankuser",
