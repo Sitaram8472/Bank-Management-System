@@ -40,7 +40,7 @@ while status:
             elif facility == 2:
                 while True:
                     try:
-                        amount = int(input("Enter Amount to Deposit"))
+                        amount = int(input("Enter Amount to Deposit "))
                         bobj = Bank(user, account_number[0][0])
                         bobj.deposit(amount)
                         mydb.commit()
@@ -52,7 +52,7 @@ while status:
             elif facility == 3:
                 while True:
                     try:
-                        amount = int(input("Enter Amount to Withdraw"))
+                        amount = int(input("Enter Amount to Withdraw "))
                         bobj = Bank(user, account_number[0][0])
                         bobj.withdraw(amount)
                         mydb.commit()
@@ -63,8 +63,8 @@ while status:
             elif facility == 4:
                 while True:
                     try:
-                        receive = int(input("Enter Receiver Account Number"))
-                        amount = int(input("Enter Money to Transfer"))
+                        receive = int(input("Enter Receiver Account Number "))
+                        amount = int(input("Enter Money to Transfer "))
                         bobj = Bank(user, account_number[0][0])
                         bobj.fundtransfer(receive, amount)
                         mydb.commit()
