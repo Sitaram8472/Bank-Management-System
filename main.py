@@ -3,7 +3,7 @@ from bank import *
 
 status = False
 
-print("Welcome to Mohit Banking Project")
+print("Welcome to Sitaram Banking Project")
 while True:
     try:
         register = int(input("1. SignUp\n"
